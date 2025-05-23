@@ -1,0 +1,26 @@
+{
+  "name": "express-rest-api-proxy",
+  "version": "1.0.0",
+  "description": "A simple Node.js Express backend API that acts as a proxy to an external REST API (https://jsonplaceholder.typicode.com/posts).  \r This project demonstrates basic CRUD operations by forwarding requests to the external API and returning responses to the client.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaviyaPalanisamy05/express-rest-api-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaviyaPalanisamy05/express-rest-api-proxy/issues"
+  },
+  "homepage": "https://github.com/KaviyaPalanisamy05/express-rest-api-proxy#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
